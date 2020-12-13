@@ -1,0 +1,167 @@
+:root {
+    --global-font-family: " Arial, sans-serif";
+    --global-color-background-color: #0C1027;
+}
+
+body {
+    background-color: var( --global-color-background-color);
+    font-family: var(--global-font-family);
+    font-size: 18px;
+    padding: 5px;
+    overflow-y: scroll;
+    color: white;
+    scrollbar-color: blue orange;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#outer-div1 {
+    display: inline-flex;
+}
+
+#outer-div2 {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+#img1 {
+    padding: 2%;
+    margin-left: 25px;
+}
+
+#fav-button {
+    padding: 2px;
+    justify-content: center;
+}
+
+#notif-icon {
+    color: white;
+    font-size: 30px;
+}
+
+#avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin-right: 45px;
+    margin-top: 15%;
+}
+
+.margin {
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 12%;
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    margin: 2%;
+}
+
+.col1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    height: 25%;
+}
+
+.col2 {
+    width: 40%;
+    margin: 2px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+}
+
+#sel {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+button {
+    padding: 2%;
+    background-image: linear-gradient(to right, purple, pink);
+    color: white;
+    font-size: small;
+}
+
+#sim-artist {
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: -1px 1px 8px #f3eeee; */
+    border-bottom-color: #f3eeee;
+}
+
+#sim-artist2 {
+    background-color: #1A1E33;
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+#player {
+    position: fixed;
+    bottom: 0px;
+    background-color: #282828;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+#right {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+span {
+    margin: 2%;
+}
+
+
+/*  */
+
+#image1 {
+    position: absolute;
+    left: 27%;
+    top: 20%;
+    box-shadow: -2px -2px 20px 10px #555f73;
+    height: 80%;
+}
+
+#img2,
+#img3 {
+    width: 40%;
+    padding: 10px;
+    margin: 2%;
+}
+
+#popular-artist {
+    overflow-y: scroll;
+}
+
+#img4 {
+    width: 8em;
+    height: 8em;
+    margin: 2%;
+    border-radius: 50%;
+}
