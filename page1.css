@@ -1,138 +1,134 @@
-body {
-    background-color: #0C1027;
-    font-family: roboto;
-    font-size: 15px;
-    padding: 5px;
-    overflow-y: scroll;
-    color: white;
-}
-
-#nav-bar {
-    /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: space-between;
-}
-
-#outer-div1 {
-    display: inline-flex;
-}
-
-#outer-div2 {
-    display: inline-flex;
-    justify-content: flex-end;
-}
-
-#img1 {
-    /* background-color: blueviolet; */
-    padding: 2%;
-    margin-left: 25px;
-}
-
-#fav-button {
-    /* background-color: brown; */
-    padding: 2px;
-    justify-content: center;
-}
-
-#notif-icon {
-    /* background-color: blueviolet; */
-    color: white;
-    font-size: 30px;
-}
-
-#avatar {
-    height: 3em;
-    width: 3em;
-    /* background-color: brown; */
-    border-radius: 50%;
-    margin-right: 25px;
-}
-
-.margin {
-    margin-top: 8%;
-    margin-left: 8%;
-    margin-right: 12%;
-}
-
-.container {
-    display: flex;
-}
-
-.row {
-    display: flex;
-    margin: 4%;
-}
-
-.col1 {
-    width: 60%;
-    background-color: #141B41;
-    display: flex;
-    margin: 2px;
-}
-
-.col2 {
-    width: 35%;
-    margin: 2px;
-    display: flex;
-    flex-direction: column;
-}
-
-#sel {
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-}
-
-button {
-    padding: 2%;
-    background-image: linear-gradient(to right, purple, pink);
-    color: white;
-    font-size: small;
-}
-
-#sim-artist {
-    display: flex;
-    flex-direction: row;
-    /* box-shadow: -1px 1px 8px #f3eeee; */
-    border-bottom-color: #f3eeee;
-}
-
-#sim-artist2 {
-    background-color: #1A1E33;
-    display: flex;
-    flex-direction: row;
-    height: 25%;
-    margin-bottom: 5%;
-}
-
-#player {
-    position: fixed;
-    bottom: 0px;
-    background-color: #282828;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-}
-
-audio {
-    height: 40%;
-    margin-top: 5%;
-}
-
-#right {
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-top: 1%;
-    margin-left: 5%;
-}
-
-#center {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-span {
-    margin: 2%;
-}
+                         :root {
+                            --global-font-family: " Arial, sans-serif";
+                            --global-color-background-color: #0C1027;
+                        }
+                        
+                        body {
+                            background-color: var( --global-color-background-color);
+                            font-family: var(--global-font-family);
+                            font-size: 18px;
+                            padding: 5px;
+                            overflow-y: scroll;
+                            color: white;
+                        }
+                        
+                        #nav-bar {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        #outer-div1 {
+                            display: inline-flex;
+                        }
+                        
+                        #outer-div2 {
+                            display: inline-flex;
+                            justify-content: flex-end;
+                        }
+                        
+                        #img1 {
+                            padding: 2%;
+                            margin-left: 25px;
+                        }
+                        
+                        #fav-button {
+                            padding: 2px;
+                            justify-content: center;
+                        }
+                        
+                        #notif-icon {
+                            color: white;
+                            font-size: 30px;
+                        }
+                        
+                        #avatar {
+                            height: 3em;
+                            width: 3em;
+                            border-radius: 50%;
+                            margin-right: 45px;
+                            margin-top: 15%;
+                        }
+                        
+                        .margin {
+                            margin-top: 8%;
+                            margin-left: 8%;
+                            margin-right: 12%;
+                        }
+                        
+                        .container {
+                            display: flex;
+                        }
+                        
+                        .row {
+                            display: flex;
+                            margin: 4%;
+                        }
+                        
+                        .col1 {
+                            width: 60%;
+                            background-color: #141B41;
+                            display: flex;
+                            margin: 2px;
+                        }
+                        
+                        .col2 {
+                            width: 35%;
+                            margin: 2px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        #sel {
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.6;
+                        }
+                        
+                        button {
+                            padding: 2%;
+                            background-image: linear-gradient(to right, purple, pink);
+                            color: white;
+                            font-size: small;
+                        }
+                        
+                        #sim-artist {
+                            display: flex;
+                            flex-direction: row;
+                            /* box-shadow: -1px 1px 8px #f3eeee; */
+                            border-bottom-color: #f3eeee;
+                        }
+                        
+                        #sim-artist2 {
+                            background-color: #1A1E33;
+                            display: flex;
+                            flex-direction: row;
+                            height: 25%;
+                            margin-bottom: 5%;
+                        }
+                        
+                        #player {
+                            position: fixed;
+                            bottom: 0px;
+                            background-color: #282828;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            height: 80px;
+                        }
+                        
+                        #right {
+                            display: inline-flex;
+                            justify-content: flex-end;
+                            margin-top: 1%;
+                            margin-left: 5%;
+                        }
+                        
+                        #center {
+                            display: flex;
+                            flex-direction: column;
+                            width: 40%;
+                        }
+                        
+                        span {
+                            margin: 2%;
+                        }
