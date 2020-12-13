@@ -76,10 +76,9 @@ body {
 .col2 {
     width: 40%;
     margin: 2px;
-    margin-left: 30px;
+    margin-left: 6%;
     display: flex;
     flex-direction: column;
-    /* overflow-y: scroll; */
 }
 
 #sel {
@@ -164,4 +163,41 @@ span {
     height: 8em;
     margin: 2%;
     border-radius: 50%;
+}
+
+#img5 {
+    width: 8em;
+    height: 8em;
+    margin: 2%;
+}
+
+#img6 {
+    width: 100%;
+    height: 12em;
+}
+
+.card {
+    margin: 2%;
+    position: relative;
+    width: 30%;
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    font-weight: bolder;
+    left: 40%;
+    font-size: 30px;
+    text-shadow: -2px -2px 20px 5px #555f73;
+}
+
+#img7 {
+    width: 8em;
+    height: 8em;
+    margin: 2%;
+    box-shadow: -2px 2px 10px #525252;
+}
+
+h3 {
+    text-shadow: 1px -4px 8px #904242;
 }
